@@ -24,10 +24,10 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                        
 
     ansi_7u_layout: ansi_7u_layout {
         compatible = "zmk,physical-layout";
-        display-name = "ANSI 7U";
+        display-name = "ANSI 7U Split BS";
         transform = <&ansi_7u_transform>;
 
-        keys =    ROW0_FIXED , ROW0_BS_2U
+        keys =    ROW0_FIXED , ROW0_BS_1U
                 , ROW1_FIXED , ROW1_ANSI
                 , ROW2_FIXED , ROW2_ANSI
                 , ROW3_ANSI  , ROW3_FIXED , ROW3_RSFT_275U
